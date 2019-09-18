@@ -15,13 +15,10 @@ For leftImg8bit_trainvaltest_foggy.zip ([30GB](https://www.cityscapes-dataset.co
 
 Download from the offical website: 
 
-[CelebaMAsk-HQ](https://github.com/switchablenorms/CelebAMask-HQ). 
-
-[Pascal VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) and VOCAUG](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/semantic_contours/benchmark.tgz). 
-
-[COCO-Stuff](https://github.com/nightrome/cocostuff)
-
-[ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
+[CelebaMAsk-HQ](https://github.com/switchablenorms/CelebAMask-HQ), 
+[Pascal VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) and [VOCAUG](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/semantic_contours/benchmark.tgz),
+[COCO-Stuff](https://github.com/nightrome/cocostuff),
+[ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/).
 
 ### Data Generation
 

@@ -20,7 +20,7 @@ Download from the offical website:
 [COCO-Stuff](https://github.com/nightrome/cocostuff),
 [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/).
 
-### Data Generation
+## Data Generation
 
 For Gaussian Blur, GaussianNoise, JPEG compression and Chromatic Aberrations, the author of [RankIQA](https://github.com/xialeiliu) released their [code](https://github.com/xialeiliu/RankIQA/tree/master/data/rank_tid2013) to generate ranking dataset for tid2013 dataset (17 distortions).
 

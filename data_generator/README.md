@@ -1,4 +1,4 @@
-# SR-Restore
+# SR-Restore Datasets
 My environment is pytorch0.4 and python3, the code is not tested with other environments, but it should also work on similar environments.
 
 ## Get datasets
@@ -9,16 +9,19 @@ Register and download the dataset from the official [website](https://www.citysc
 You can directly download leftImg8bit_trainvaltest.zip ([11GB](https://www.cityscapes-dataset.com/file-handling/?packageID=3)) and gtFine_trainvaltest.zip ([241MB](https://www.cityscapes-dataset.com/file-handling/?packageID=1)) after registeration.
 
 For leftImg8bit_trainvaltest_foggy.zip ([30GB](https://www.cityscapes-dataset.com/file-handling/?packageID=29)) and leftImg8bit_trainval_rain.zip ([21GB](https://www.cityscapes-dataset.com/file-handling/?packageID=33)), contact [Cityscitys Team](mailto:mail@cityscapes-dataset.net) to get the permission.
-```
+
+
 ### Others
+
+Download from the offical website: 
 
 [CelebaMAsk-HQ](https://github.com/switchablenorms/CelebAMask-HQ). 
 
 [Pascal VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) and VOCAUG](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/semantic_contours/benchmark.tgz). 
 
-[COCO-Stuff]()
+[COCO-Stuff](https://github.com/nightrome/cocostuff)
 
-[ADE20K]()
+[ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 
 ### Data Generation
 

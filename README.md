@@ -46,11 +46,9 @@ We conduct experiments on various datasets, which mostly can be found in our [pa
 
 If you found our paper or code useful, please cite our paper.
 ```
-@article{DBLP:journals/corr/abs-1911-00679,
+@article{xia2019adverse,
   author    = {Weihao Xia and Zhanglin Cheng and Yujiu Yang and Jing-Hao Xue},
   title     = {Cooperative Semantic Segmentation and Image Restoration in Adverse Environmental Conditions},
-  journal   = {CoRR},
-  volume    = {abs/1911.00679},
   year      = {2019},
   url       = {http://arxiv.org/abs/1911.00679},
 }

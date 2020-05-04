@@ -36,13 +36,57 @@ Coming soon.
 
 Coming soon.
 
-## Results
+## Evaluation Methods and Results
+
+### DeRain
+
+Comparison with the state-of-the-arts in terms of the PSNR and SSIM on the test set of RainCityscapes.     
+
+No. | Method | PSNR | SSIM 
+------ | ------ | ------ | ------ 
+1 | [DSC](http://www.math.nus.edu.sg/~matjh/download/image_deraining/rain_removal_v.1.1.zip) 	| 16.25 | 0.7746
+2 | [GMMLP](http://yu-li.github.io/)	| 17.80 | 0.8169
+3 | [JOB](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Joint_Bi-Layer_Optimization_ICCV_2017_paper.html)	| 15.10 | 0.7592
+4 | [RESCAN](https://xialipku.github.io/RESCAN/)	| 24.49 | 0.8852
+5 | [DID-MDN](https://github.com/hezhangsprinter/DID-MDN)	| 28.43 | 0.9349
+6 | [SPANet](https://github.com/stevewongv/SPANet)	| 25.39 | 0.8933
+7 | [PReNet](https://github.com/YadiraF/PRNet)	| 25.96 | 0.9147
+8 | [DAF-Net](https://github.com/xw-hu/DAF-Net)	| 30.06 | 0.9530 
+9 | Ours	| 32.41 | 0.9579
+ 
+### DeFog
+
+Comparison with the state-of-the-arts in terms of the PSNR and SSIM on the test set of FoggyCityscapes.
+
+No. | Method | PSNR | SSIM 
+------ | ------ | ------ | ------ 
+1 | [DCP](https://github.com/raven-dehaze-work/DCP-Dehaze) 	| 23.98 | 0.8349
+2 | [NLID](https://github.com/qub-blesson/DeFog) 	| 24.43 | 0.8512
+3 | [MSCNN](https://github.com/raven-dehaze-work/MSCNN_MATLAB) 	| 29.36 | 0.9317 
+4 | Ours 		| 32.64 | 0.9618
+
+### DeReflect
+
+Comparison with the state-of-the-arts in terms of the PSNR and SSIM on the test set of ReflectCityscapes.
+
+No. | Method | PSNR | SSIM 
+------ | ------ | ------ | ------ 
+1 | [LB14]() | 29.23 | 0.9337 
+2 | [CEILNet](https://github.com/fqnchina/CEILNet) | 24.51 | 0.8826
+3 | [PLRS](http://yu-li.github.io/paper/li_cvpr14_layer.pdf) | 28.06 | 0.9182 
+4 | [BDN](https://github.com/yangj1e/bdn-refremv) | 15.10 | 0.7592 
+5 | [ERRNet](https://github.com/Vandermode/ERRNet) | 30.80 | 0.9369
+6 | Ours | 32.06 | 0.9590
+
+### Others
 
 We conduct experiments on various datasets, which mostly can be found in our [paper](http://arxiv.org/abs/1911.00679). Below are semantic segmentation and image restoration results of watermark and iirgular mask.
 
 <p align="center">
   <img src="/asserts/celeba_wm_results.jpg">
 </p>
+
+## Data Generation
 
 If you found our paper or code useful, please cite our paper.
 ```

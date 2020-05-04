@@ -9,14 +9,15 @@ mv benchmark_RELEASE VOC_aug
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar # 2 GB
 tar -xvf VOCtrainval_11-May-2012.tar
 
-# mat to png
+# mat to png:Data conversions 
+# Ground truth labels within augmented PASCAL VOC dataset are distributed as Matlab data files, therefore we will have to convert them before we can start training itself.
 cd ~/DL_dataset/VOC_aug/dataset
 mkdir cls_png
 cd ~/deeplab_v2/voc2012/
 ./mat2png.py ~/DL_dataset/VOC_aug/dataset/cls ~/DL_dataset/VOC_aug/dataset/cls_png
 
 # label: RGB to 1D
-cd ~/DL_dataset/VOC2012_orig
+# Those labels in original PASCAL VOC 2012 dataset are defined as RGB images.
 mkdir SegmentationClass_1D
 
 cd ~/deeplab_v2/voc2012
